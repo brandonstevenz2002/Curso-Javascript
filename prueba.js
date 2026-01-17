@@ -6,28 +6,40 @@ var _a = 2
 
 console.log(_a)
 
-var -a = 8
 
-var 1a = 2
+
 
 var arbol = "Arbol"
 
-function arbol () {
+function arbol() {
 
 }
 
-var mi_archivo_prueba.js 
 
 const UNA_CONSTANTE = "Soy una constante"
 PI = 3.14
 
 class SerHumano {
-    constructor (nombre, genero) {
+    constructor(nombre, genero) {
         this.nombre = nombre
-        this.genero = genero 
+        this.genero = genero
     }
 
-    miNombreEs () {
+    miNombreEs() {
         return 'Mi nombre es ' + this.nombre
     }
 }
+
+
+
+let unaCadena = "Hola mundo",
+    unNumero = 19,
+    unBoolean = true
+
+function holaMundo(nombre) {
+    alert("Hola " + nombre)
+}
+holaMundo("Jhonatan")
+
+const ajax = new XMLHttpRequest(),
+    jon = new SerHumano('Jonathan', 'Hombre')
